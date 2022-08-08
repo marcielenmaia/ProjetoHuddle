@@ -1,0 +1,63 @@
+body {
+    position: relative;
+    color: white;
+    display: grid;
+    place-items: left;
+
+    background-color: rgb(96, 57, 187);
+    background-image: url(../huddle/image/bg-desktop.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+h1 {
+    text-align: left;
+    padding-left: 50px;
+}
+.conteudo {
+    display: flex;
+    flex-direction:row;
+}
+
+#container-a {
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.text1 {
+    font-family : "Poppins";
+    font-size :  40px ;
+    margin-top : 60px;
+    margin-left: 7000;
+}
+
+.text2 {
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 50px;
+    font-size: 15px;
+    padding-top: 0px;
+}
+
+#container-b {
+    max-width:  500px ;
+    display: flex;
+    margin-left:  30px ;
+    margin-top: 30px;
+    flex-direction: column;
+    justify-content : initial;
+    text-align: left;
+    margin-top :  35px ;
+    grid-column:50%;
+    align-items: center;
+}
+
+ .botao {
+    border-radius: 50px;
+    border: 0px;
+    background-color: white;
+    color: mediumorchid;
+    padding: 11px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 270px;
+ }
+
